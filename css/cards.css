@@ -1,3 +1,18 @@
+.Green{
+background-color: #ffbb66;
+}
+.blue{
+  color: blue;
+}
+.pink{
+  color: rgb(255, 16, 107);
+}
+.red{
+  color:red;
+}
+.white{
+  color: rgb(255, 255, 255);
+}
 .card2 {
     margin-left: -1rem;
     margin-right: -1rem;
@@ -9,7 +24,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 0.25rem;
-    background-color: rgba(17, 24, 39, 1);
+    background-color: rgb(229, 255, 0);
     padding: 1.5rem;
   }
   
@@ -247,4 +262,46 @@
   }
   .card3-footer{
     font-size: small;
+  }
+  .card4 {
+    width: 210px;
+    height: 254px;
+    border-radius: 4px;
+    background: #ff0000;
+    display: flex;
+    gap: 5px;
+    padding: .4em;
+  }
+  
+  .card4 p {
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all .5s;
+    background: #ffffff;
+    border: 1px solid #001aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card4 p:hover {
+    flex: 4;
+  }
+  
+  .card4 p span {
+    min-width: 14em;
+    padding: .5em;
+    text-align: center;
+    transform: rotate(-90deg);
+    transition: all .5s;
+    text-transform: uppercase;
+    color: #1900ff;
+    letter-spacing: .1em;
+  }
+  
+  .card4 p:hover span {
+    transform: rotate(0);
   }
